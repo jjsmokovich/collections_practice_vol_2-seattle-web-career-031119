@@ -16,12 +16,7 @@ def remove_non_strings(array)
 end
 
 def count_elements(names)
-  name_frequency_hash = {}
-
-  names.each do |name|
-  count = names.count(name)
-  name_frequency_hash[name] == count  
-  end
+  
 end
 
 
