@@ -15,8 +15,8 @@ def remove_non_strings(array)
   array.delete_if {|element| element.class != String}
 end
 
-def count_elements(a)
-  
+def count_elements(array)
+  array.uniq.map{|t| [t,things.count(t)]}.to_h
 end
 
 
