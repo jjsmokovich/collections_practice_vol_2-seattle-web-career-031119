@@ -29,11 +29,11 @@ end
 def merge_data(keys, data)
   keys.each do |object|
     matchingProperty = object[:first_name]
-    
     otherObject = data[0][matchingProperty]
     
     otherObject.each do |property,value|
       object[property] = value
     end
   end
-end
+  
+  
