@@ -37,5 +37,6 @@ def merge_data(keys, data)
   end
   
 def organize_schools(schools)
-  
+  def find_cool(cool)
+    cool.select {|i| i.any? {|k,v| v == "cool"}} 
 end
