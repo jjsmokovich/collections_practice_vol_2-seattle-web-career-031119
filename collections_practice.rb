@@ -16,7 +16,7 @@ def remove_non_strings(array)
 end
 
 def count_elements(names)
-  
+  names.each_with_object(Hash.new(0)) { |name, hash| hash[name] += 1 }
 end
 
 
