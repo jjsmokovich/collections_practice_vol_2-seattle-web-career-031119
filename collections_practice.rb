@@ -16,11 +16,14 @@ def remove_non_strings(array)
 end
 
 def count_elements(array)
-  index = []
+  instances = []
+  
   array.uniq.each do |element|
     element[:count] = array.count(element)
-    index.push(element)
+    instances.push(element)
   end
   
-  return index
+  return instances
 end
+
+def merge_data(arra)
