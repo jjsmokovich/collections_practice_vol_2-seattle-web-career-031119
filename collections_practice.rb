@@ -16,7 +16,7 @@ def remove_non_strings(array)
 end
 
 def count_elements(array)
-  array.uniq.map{|t| [t,things.count(t)]}.to_h
+  array.uniq.map{|t| [t,array.count(t)]}.to_h
 end
 
 
