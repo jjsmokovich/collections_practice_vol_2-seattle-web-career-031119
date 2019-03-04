@@ -37,7 +37,5 @@ def merge_data(keys, data)
   end
   
 def organize_schools(schools)
-    locations_hash = {}
-    schools.collect {|k,v| locations_hash[v[:location]] = []}
-    locations_hash.each {|k,v| schools.each {|k1,v1| if k == v1[:location] then v << k1  end}}
+  
 end
