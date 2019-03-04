@@ -16,5 +16,10 @@ def remove_non_strings(array)
 end
 
 def count_elements(array)
-  
+    collector = []
+    array.uniq.each do |element|
+        element[:count] = array.count(element)
+        collector << element
+    end
+collector
 end
