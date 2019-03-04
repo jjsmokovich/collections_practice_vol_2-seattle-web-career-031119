@@ -15,7 +15,7 @@ def remove_non_strings(array)
   array.delete_if {|element| element.class != String}
 end
 
-def count_elements(array)
+def count_elements(names)
   counts = Hash.new(0)
   names.each { |name| counts[name] += 1 }
 end
