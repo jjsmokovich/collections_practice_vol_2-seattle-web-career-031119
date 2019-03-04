@@ -27,5 +27,5 @@ def count_elements(array)
 end
 
 def merge_data(keys, data)
-  keys.each_with_object({}) { |(k,v),g| g[k] = { :data => k }.merge(v) }
+  
 end
