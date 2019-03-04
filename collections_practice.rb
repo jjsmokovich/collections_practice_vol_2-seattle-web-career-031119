@@ -16,7 +16,9 @@ def remove_non_strings(array)
 end
 
 def count_elements(a)
-  
+  a = a.group_by(&:itself) # {1=>[1], 2=>[2, 2], 3=>[3, 3, 3], 4=>[4]}
+  a = a.map { |k,v| [k, v.count] } # [[1, 1], [2, 2], [3, 3], [4, 1]]
+  a = a.to_h #
   
 end
 
