@@ -22,5 +22,5 @@ def count_elements(array)
     index.push(element)
   end
   
-  index
+  return index
 end
