@@ -17,7 +17,7 @@ end
 
 def count_elements(arr)
   result = {}
-arr.uniq.each{|element| result[element] = arr.count(element)}
+  arr.uniq.each{|element| result[element] = arr.count(element)}
 end
 
 
