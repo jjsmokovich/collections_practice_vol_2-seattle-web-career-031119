@@ -19,7 +19,6 @@ def count_elements(array)
   counts = Hash.new(0)
   array.each do |element|
     counts[element[:name]] += 1
-
 end
 
 
