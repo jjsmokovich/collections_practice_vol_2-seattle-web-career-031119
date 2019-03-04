@@ -16,7 +16,7 @@ def remove_non_strings(array)
 end
 
 def count_elements(names)
-  
+  names.inject(Hash.new(0)) { |total, e| total[e] += 1 ;total}
 end
 
 
