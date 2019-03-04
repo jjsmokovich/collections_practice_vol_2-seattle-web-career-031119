@@ -16,8 +16,7 @@ def remove_non_strings(array)
 end
 
 def count_elements(names)
-  
-  
+  names.group_by(&:itself).transform_values(&:count)
 end
 
 
