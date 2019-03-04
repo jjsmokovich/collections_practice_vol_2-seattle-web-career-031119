@@ -35,6 +35,7 @@ def merge_data(keys, data)
       object[property] = value
     end
   end
+end
   
 def organize_schools(schools)
   def find_cool(cool)
