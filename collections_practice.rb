@@ -20,6 +20,6 @@ def count_elements(array)
   array.each do |element|
     counts[element[:name]] += 1
 end
-
+end
 
 
