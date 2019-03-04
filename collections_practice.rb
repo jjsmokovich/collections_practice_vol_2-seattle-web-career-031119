@@ -16,7 +16,8 @@ def remove_non_strings(array)
 end
 
 def count_elements(arr)
-  
+  result = {}
+arr.uniq.each{|element| result[element] = arr.count(element)}
 end
 
 
