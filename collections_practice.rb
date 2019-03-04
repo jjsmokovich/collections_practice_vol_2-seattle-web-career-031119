@@ -20,7 +20,7 @@ def count_elements(names)
 
   names.each do |name|
   count = names.count(name)
-  name_frequency_hash[name] = count  
+  name_frequency_hash[name] == count  
   end
 end
 
