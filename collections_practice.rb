@@ -15,7 +15,7 @@ def remove_non_strings(array)
   array.delete_if {|element| element.class != String}
 end
 
-def count_elements(arr)
+def count_elements(names)
   name_frequency_hash = {}
 
   names.each do |name|
